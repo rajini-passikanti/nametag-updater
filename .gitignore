@@ -1,0 +1,18 @@
+# Signing keys must never be committed.
+keys/
+*.key
+
+# Build and publish outputs.
+dist/
+bin/
+releases/
+.demo/
+local/
+
+# Local runtime state and credentials.
+.updater/
+.env
+.env.*
+
+# macOS metadata.
+.DS_Store
